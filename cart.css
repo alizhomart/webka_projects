@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* body {
+    position: relative;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    font-family: sans-serif;
+  } */
+
+.prodcuts-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    max-width: 650px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.product-header{
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    max-width: 650px;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+
+.product-title{
+    width: 45%;
+}
+
+.price{
+    width: 15%;
+    /* border-bottom: 4px solid lightgrey; */
+    display: flex;
+    align-items: center;
+}
+
+.quantity{
+    width: 30%;
+    /* border-bottom: 4px solid lightgrey; */
+    display: flex;
+    align-items: center;
+}
+
+.total{
+    width: 10%;
+    /* border-bottom: 4px solid lightgrey; */
+    display: flex;
+    align-items: center;
+}
+
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+img{
+    width: 20%;
+}
+
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle{
+    width: 30%;
+}
+
+.basketTotal{
+    width: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    nav .form-inline .form-control {
+      width: 100px;
+    }
+  
+    nav .form-inline .btn {
+      margin-left: 20px;
+    }
+  }
+  
